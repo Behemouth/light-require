@@ -1,6 +1,6 @@
 {
   "name": "light-require-compile",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Light browser side module require compiler",
   "main": "index",
   "bin":{

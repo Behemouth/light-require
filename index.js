@@ -55,7 +55,7 @@ function findModules(main) {
   var depFlow = ["#TOP"];
   depFlow.toString = function () {return this.join("\n->")};
 
-  var mainMod = traverse(main,process.cwd,depFlow,modules,cache);
+  var mainMod = traverse(main,process.cwd(),depFlow,modules,cache);
 
   return {main:mainMod,modules:modules};
 }
