@@ -1,0 +1,29 @@
+{
+  "name": "light-require-compile",
+  "version": "0.0.1",
+  "description": "Light browser side module require compiler",
+  "main": "index",
+  "bin":{
+    "light-require-compile.js":"./bin/light-require-compile.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Behemouth/light-require-compile.git"
+  },
+  "keywords": [
+    "require",
+    "module",
+    "export",
+    "amd",
+    "cmd"
+    ],
+  "dependencies": {
+  },
+  "devDependencies": {
+  },
+  "author": {
+    "name": "Behemouth"
+  },
+  "license": "Apache"
+}
+
