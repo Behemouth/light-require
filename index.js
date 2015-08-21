@@ -113,7 +113,7 @@ function Module(modName,modFile) {
   this.name = modName;
   this.file = modFile;
   this.dir = path.dirname(modFile);
-  this.module_id = guid();
+  this.module_id = (modName + guid()).replace(/[^\w$]+/g,'_').replace(/^[^a-z_]+/i,'_').replace(/_+/g,'_');
   Object.defineProperty(this,'content',{
     enumerable:false,
     writable:true,
